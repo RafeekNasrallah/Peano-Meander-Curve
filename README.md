@@ -8,5 +8,5 @@ Output: Peano-Meander curve in the given degree in SVG file.
 
 How to run:<br>
 Step 1: Compile<br>
-    ´´´make´´´
+    ```make```
 
