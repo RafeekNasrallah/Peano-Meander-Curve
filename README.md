@@ -6,7 +6,7 @@ Input: a number (order) between 1 and 8 (included). <br>
 Output: Peano-Meander curve in the given degree in SVG file.
 <br>
 
-How to run:<br>
+How to run:<br><br>
 Step 1: Compile<br>
     1.Navigate to the directory.<br>
     2.write in terminal ```make```<br><br>
