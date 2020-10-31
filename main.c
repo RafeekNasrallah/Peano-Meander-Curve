@@ -43,8 +43,13 @@ int main(int argc, char** argv) {
     // turning the number it gets from the console into int
     int base = 3;
     double squares = pow(base,(2*n));;
-    x =  malloc((squares) * sizeof(u_int64_t));
-    y =  malloc((squares) * sizeof(u_int64_t)); 
+    x =  malloc(squares * sizeof(u_int64_t));
+    y =  malloc(squares * sizeof(u_int64_t)); 
+    
+    if (x == NULL || y == NULL){
+        printf("Error\n");
+        exit(1);
+    }
 
     peano_meander(n,x,y);
     //------------------------------End-Main-Part-------------------------------------
